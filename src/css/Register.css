@@ -1,0 +1,15 @@
+.success-card {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    background-color: #d1e7dd; /* Verde claro */
+    color: #0f5132; /* Texto verde escuro */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .success-card.fade-in {
+    opacity: 1;
+  }
+  
